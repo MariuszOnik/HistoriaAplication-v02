@@ -227,8 +227,9 @@ function navigate1($this){
 
 //var yy = new Zoom(z); 
 
-$(".pl-button").on( "click", function() {
+$(".pl-button.en").on( "click", function() {
  
+  console.log("pl-button.en")
   if(Seting.newURLsetAlredy == false){
    
     Seting.newURLsetAlredy = true; 
@@ -245,8 +246,8 @@ $(".pl-button").on( "click", function() {
   }  
 
 });
-$(".en-button").on( "click", function() {
- 
+$(".en-button.pl").on( "click", function() {
+  console.log("en-button.pl")
   if(Seting.newURLsetAlredy == false){
    
     Seting.newURLsetAlredy = true; 
