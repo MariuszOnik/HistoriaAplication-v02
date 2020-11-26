@@ -1,3 +1,38 @@
+.pl-button-wraper{
+    width: 3.5%;
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 5%;
+    left: 90%; 
+    z-index: 1;
+}
+
+.pl-button.en{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    top: 6%;
+    left: 90.9%;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+
+}
+.en-button.pl{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    top: 6%;
+    left: 90.74%;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    
+}
+
+
+
 #l-s-logo-ratusz{
     position: absolute;
     width: 6%;

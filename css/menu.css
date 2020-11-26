@@ -65,15 +65,5 @@
     transform: translate(-50%, -50%) !important; font-size: 2vw !important;
 }
 
-.wraper-pl-button{
-    position: absolute;
-    overflow: hidden;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    left: 85%; top: 5%; margin: 0; padding: 0.5%; width: 3%; height: 5%;
-}
-.wraper-pl-button:hover{
 
-}
-  
   
